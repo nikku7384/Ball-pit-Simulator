@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballCountInput: {fileID: 961860010}
-  warningText: {fileID: 1573354222}
+  warningPopup: {fileID: 1573354222}
 --- !u!1 &444453594
 GameObject:
   m_ObjectHideFlags: 0
