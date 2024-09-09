@@ -7,7 +7,11 @@ public class GameSceneManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("MenuScene");
+            //Due to scene loading too fast cursor is not going back to normal state 
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            SceneManager.LoadSceneAsync("MenuScene");
+
         }
     }
 }
